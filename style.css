@@ -1,10 +1,9 @@
 *{
-    /* font-family: 'Manrope', sans-serif; */
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     box-sizing: border-box;
 }
-section{
+.flex-container{
     display: flex;
     /* float: left; */
 }
@@ -70,4 +69,40 @@ section{
 }
 .about-text p{
     margin-right: 60px;
+    font-family: 'Manrope', sans-serif;
+}
+/* Recipie Section Start */
+.recipie{
+    margin-top: 7%;
+}
+.heading-text{
+    text-align: center;
+
+}
+/* .heading-text p{
+    
+} */
+.recipie-details{
+    margin-top: 30px;
+}
+.single-recipies{
+    width: 25%;
+    margin-left: 6.5%;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 0 8px 0 #c7bfb6;
+    padding: 20px;
+}
+.food-image{
+    /* display: block; */
+    /* text-align: center; */
+    /* margin: 10px; */
+}
+.single-recipies img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.single-recipies p{
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
