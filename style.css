@@ -33,16 +33,41 @@ section{
     color: #828282;
     margin: 45px 0px;
 }
-.text a{
+.button a{
     background-image: linear-gradient(45deg, #FBA24F, #FF1E1E);
     border: none;
     padding: 15px 25px;
     border-radius: 40px;
     color: white;
     text-decoration: none;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 0 8px 0 #FBA24F;
 }
 .button{
-    margin-top: 56px;
+    margin-top: 65px;
     
+}
+/* About Start */
+.about{
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    margin-top: 7%;
+}
+.about-photo{
+    margin-left: 10%;
+}
+.about-photo img{
+    width: 67%;
+    margin-top: 37px;
+    margin-left: 100px;
+}
+.about-text{
+    margin-right: 10%;
+    margin-left: 7%;
+}
+.about-text h2{
+    margin-top: 35%;
+    margin-bottom: 30px;
+}
+.about-text p{
+    margin-right: 60px;
 }
