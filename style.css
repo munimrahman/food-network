@@ -110,7 +110,7 @@
 footer{
     background-color: #0B0D17;
     height: 150px;
-    margin-top: 7%;
+    margin-top: 5%;
     padding: 29px;
 }
 footer h3{
@@ -126,4 +126,24 @@ footer p{
     font-size: 15px;
     text-align: center;
     margin-top: 25px;
+}
+/* Stats Section Start */
+.stats{
+    border: none;
+    margin: 5% 6.979767%;
+    border-radius: 20px;
+    box-shadow: 0 0 8px 0 #c7bfb6;
+}
+.single-stat{
+    padding-left: 12.5%;
+}
+.single-stat h3{
+    font-size: 48px;
+    font-weight: bold;
+}
+.single-stat p{
+    font-size: 16px;
+}
+.stat-details{
+    padding: 80px;
 }
